@@ -1,5 +1,27 @@
 # CSS Database
 
+## Flexbox
+
+    Flexbox is a layout in CSS allow different row and column to be fitted inside a container element and different shape and form (mixture of row and column orientation). 
+
+    Step 1 - set the display property to flex.
+    `display: flex;`
+    Step 2 - assign main axis value to the property (changing orientation)
+    `flex-direction: column;` or `flex-direction: row;`
+    Step 3 - justify-content, align flex items along the main axis of the flex container.
+    `justify-content: space-between;`
+    Step 4 - align-items items along the cross axis of the flex container.
+    `align-items: strectch`
+    Step 5 - flex-wrap specify whether flex items should wrap onto multiple lines within a flex container, and how they should behave when wrapping.
+    `flex-wrap: wrap`
+    Step 6 - flex-grow determines how this space is distributed among the flex items. The available space is divided based on the proportion of the flex-grow values.
+    `flex-grow: 1;`
+    Step 7 - flex: 1 in CSS is a convenient way to apply flex properties to flex items. It is shorthand for setting the flex-grow, flex-shrink, and flex-basis properties at once.
+    `flex: 1;`
+    Step 8 - align-self control individual child element, to override the default alignment.
+    `align-self: center`
+
+
 ## Selector
     `body {}` This is the CSS selector that targets the <body> element. The styles defined within the curly braces {} will be applied to the <body> of the HTML document.
 
