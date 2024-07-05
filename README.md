@@ -9,6 +9,12 @@
 
     `#id name {}`id attribute has to be unqiue only 1 per porject
 
+    `footer > section` This selector targets all <section> elements that are immediate children of a <footer> element.
+
+    `header section img {}` targets all <img> elements that are descendants of a <section> element, which itself is a descendant of a <header> element. This means it will apply the specified styles to any <img> elements that are nested within a <section> within a <header>.
+
+    `@media` rule in CSS is used to apply specific styles based on the result of one or more media queries. These queries can target properties such as screen width, height, orientation, resolution, and more. The syntax @media () {} includes a media query condition within the parentheses. If the condition is met, the CSS rules inside the curly braces {} are applied.
+
 
 ## Parameter
     align-items
