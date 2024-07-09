@@ -1,5 +1,16 @@
 # CSS Database
 
+## CSS Variables (Custom Properties)
+    CSS variables allow you to define values in one place and reuse them throughout your stylesheet. They are particularly useful for maintaining a consistent color scheme, spacing, or any other values that you might want to change easily in one place.
+
+    `root: {}` selector pseudo-class matches the root element of the document. In an HTML document, this is always the <html> element. Using :root for defining CSS variables is common because it makes these variables globally available throughout your CSS.
+    :root {
+    --primary-color: #adf0d4;
+    --secondary-color: #1fd8a4;
+    --bg-color: #0d1512;
+    }
+
+
 ## Flexbox
 
     Flexbox is a layout in CSS allow different row and column to be fitted inside a container element and different shape and form (mixture of row and column orientation). 
