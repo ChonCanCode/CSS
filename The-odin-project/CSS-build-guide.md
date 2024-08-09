@@ -134,5 +134,28 @@ CSS
   - Hook element, giving class and id for stylin
   - Grouping element, under one parent element to correctly position them on the page.
 
+## Boxstyling
+- Property `border-radius: 24px` controlling the shape of the edge of the corner. 
+
 ## Flexbox
-- `flex-direction: row;` is the default direction
+- Property `display: flex`
+- Property `flex-grow: <num>` control how much a flex itemshould grow relative to other flex items inside the same container and how the remaining space in the flex container is distrubited among the flex items. The space is distrubited based on the relative value of `flex-grow` compared to other flex items.
+- Property `flex-shrink: <num>` control how much space to shrink if there is not enough space ine the flex container. 
+- Property `flex-base: <num>` control the initial size of a flex item before any available space is distributed `flex-grow` or before any space is removed `flex-shrink`.
+- Property `flex-direction: row/column` control which direction does the elements lining vertically or horizontally.
+- Property `flex-base: <num>`control the initial size of a flex item before any available space is distributed `flex-grow` or before any space is removed `flex-shrink`.
+- Property `justify-content:`
+- Property `align-item: `
+- Property `aspect raio: 1/1` ensure the elements scale proportionally across different screen sizes & devices.
+- Property `height:` & `width:` control how tall/wide the element wil be.
+ - `height: auto`
+ - `height: 50%`
+ - `min-height: 130px`
+ - `max-height: 240px`
+ - `height: initial `
+ - `height: 50vh/vw`
+ - `height: Unset`
+ - `height: inherit`
+ - `height: content-box/border-box`
+- Property `align-self:` override the `align-items` property for a specific flex item within a flex container. Allow a single flex item to move corss axis.
+- Property `order:<num>` control the order of flex items within a flex container. Affects the visual order of items without changing their actual position in HTML. By defualt all order has a `0` value. In the even the values are even it will be priortised by the order from HTML. 
