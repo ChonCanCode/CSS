@@ -47,6 +47,7 @@ body {
     border-radius: 24px;
     overflow: hidden;
     display: flex;
+    flex-direction: row;
 }
 
 .flexContainer div {
